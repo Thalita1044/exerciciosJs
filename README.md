@@ -1,1 +1,31 @@
 # exerciciosJs
+
+Realiazando alguns exercicios de lógica de programação voltado para a Linguagem de Java escript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

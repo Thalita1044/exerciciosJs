@@ -3,7 +3,7 @@
 //PS: considere que você trabalhe 160 horas no mês.
 
 
-/*const valorHoraTrab = (salario) => {
+const valorHoraTrab = (salario) => {
   const total = salario / 160;
   return `R$ ${total.toFixed(2).replace(' . ', ' ,')} `;
 }
@@ -157,6 +157,6 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
    }
     
 valorSalario([2.000, 3.000, 5.000])
-*/
+
 //D.Timbinha foi ao açougue e comprou 1kg de carne. Receba quanto ela tinha de dinheiro e quanto custou a carne. Calcule e exiba o valor do troco.
 

@@ -58,7 +58,7 @@ peliculas.forEach((lista) => {
 // 1959, 1962, 1970, 1994, 2002
 let copa = ["1959, 1962, 1970, 1994, 2002"]
 
-// for (let i = 0; i < copa.length; i ++){
+ for (let i = 0; i < copa.length; i ++){
  console.log("Brasil ganhou"  + copa[i])
 
 }
@@ -72,7 +72,7 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
 
 
   var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
-  // for(let frut= 0; item < frutas.length; frut++){
+   for(let frut= 0; item < frutas.length; frut++){
     console.log(frutas[item]);
     if(frutas[fruta]=== "Pera"){
       break;
@@ -82,7 +82,7 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
 
   
   function impares() {
-    // for(let i = 0; i <= 10; i++){
+    for(let i = 0; i <= 10; i++){
       if ((i % 2)== 1){
         console.log('aqui eu tenho o valor de ' + i);
       }
@@ -95,7 +95,7 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
   function tabuada(...itens) {
     console.log(itens);
     itens.forEach(function(item){
-      // for (let i=0; i <=10; i++){
+       for (let i=0; i <=10; i++){
         console.log(`${item}X${i} = ${item*i}`);
 
       }
@@ -108,14 +108,14 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
 
   //Exiba numeros de 0 a 10
   
-// for(let i=0; i<=10; i++){
+for(let i=0; i<=10; i++){
   console.log(i)
 }
    
   
   //Exiba numeros pares 0 a 10
   function par(){
-    // for(let i=0; i <= 30; i++){
+    for(let i=0; i <= 30; i++){
       if((i % 2)==0){
         console.log('os numeros pares' + i);
       }
@@ -124,7 +124,7 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
   par();
   //Exiba multiplos de 5 de 0 a 30
   function multiplos(){
-  // for (let i=0; i <= 30; i++){
+   for (let i=0; i <= 30; i++){
     if ((i % 5)== 0){
       console.log('multiplos' + i);
         }
@@ -134,7 +134,7 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
   ---------//----------------
   ou 
   function multiplos(numero=30){
-  // for (let i=0; i <=numero; i++){
+  for (let i=0; i <=numero; i++){
     if(i % 5 == 0 && i !== 0){
       console.log('multiplos'+i);
         }
@@ -142,9 +142,9 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
  }  
   multiplos();
   //Exiba numeros de 10 a 1 em ordem descrente
-// for(let i=10; i>=0;i--){
-//console.log(i)
-//}
+for(let i=10; i>=0;i--){
+console.log(i)
+}
   //Receba 30 valores de salario. Calcule e exiba o total de salários
   //Receba 30 valores de salario. Calcule e exiba o média de salários
   function valorSalario(salario){
